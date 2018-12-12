@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "208465347148",
+    "firebase_url": "https://androidnamecard-26e65.firebaseio.com",
+    "project_id": "androidnamecard-26e65",
+    "storage_bucket": "androidnamecard-26e65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208465347148:android:d062e8a549525b40",
+        "android_client_info": {
+          "package_name": "com.example.navadon.androidnamecard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208465347148-qdhhnkn7ki59jd0eh867q31e6m7ous3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.navadon.androidnamecard",
+            "certificate_hash": "4059349452a657fefdb5abf083cdc2016eadcacc"
+          }
+        },
+        {
+          "client_id": "208465347148-6v4lu7ek36s0q83tl0mrmntlbjqd5t7b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.navadon.androidnamecard",
+            "certificate_hash": "d406536c92ba962b16d3c6588768780b0401fa11"
+          }
+        },
+        {
+          "client_id": "208465347148-0mdurs68ar199eb0iiv7qo4j617bi7p7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSDl_5YO4jInwFb9IveYy8ewHE0NRqU7g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208465347148-0mdurs68ar199eb0iiv7qo4j617bi7p7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

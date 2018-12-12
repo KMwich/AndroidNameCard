@@ -7,11 +7,11 @@
 
     <path
         android:name="triangle_left"
-        android:fillColor="@color/black_blue"
+        android:fillColor="#EE4DF3"
         android:pathData="M0,225 V600 H666 z" />
 
     <path
         android:name="triangle_right"
-        android:fillColor="@color/white_blue"
+        android:fillColor="#E6E2EE"
         android:pathData="M333,600 H1000 V225 z" />
 </vector>

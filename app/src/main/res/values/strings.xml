@@ -1,8 +1,3 @@
 <resources>
     <string name="app_name">Android Name Card</string>
-    <string name="fname">KAIWIT</string>
-    <string name="lname">MANEEWONG</string>
-    <string name="email">KAIWIT.MANEEWONG@GMAIL.COM</string>
-    <string name="position">FRONTEND DEVELOP</string>
-    <string name="phone">091 - 0377157</string>
 </resources>

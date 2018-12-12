@@ -1,16 +1,33 @@
 package com.example.navadon.androidnamecard;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.databinding.DataBindingUtil;
+import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.example.navadon.androidnamecard.databinding.Card1Binding;
+
 public class Card1 extends AppCompatActivity {
+
+    private Model viewModel;
+
+    Card1Binding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.card1);
+        InitBinding();
+    }
+
+    private void InitBinding() {
+        viewModel = Model.model;
+        binding = DataBindingUtil.setContentView(this, R.layout.card1);
+        binding.setModel(viewModel);
+        binding.imageView.setImageResource(Model.drawable1[viewModel.getUi() - 1]);
+        binding.lName.setTextColor(Color.parseColor(viewModel.getColor2()));
     }
 
     @Override
